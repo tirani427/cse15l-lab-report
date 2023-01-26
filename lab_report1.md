@@ -25,7 +25,7 @@ Now that you have your ieng6 account, you move onto Step 2: Downloading VS Code,
 To do this, go to the following url: [https://code.visualstudio.com/](https://code.visualstudio.com/)
 Make sure that you follow the correct instructions to download VS Code onto your computer because it differs from Windows to Mac. Once you finish downloading VSCode you should be able to open a window like:
 
-![Image](<img width="872" alt="Screen Shot 2023-01-12 at 4 14 02 PM" src="https://user-images.githubusercontent.com/111078165/212214129-dcfed4e0-05e3-4289-94b3-6fd5ba2bfb3a.png">)
+![Image](https://user-images.githubusercontent.com/111078165/212214129-dcfed4e0-05e3-4289-94b3-6fd5ba2bfb3a.png)
 
 Now the process differs from Macbook users to Windows users. If you have a Macbook then feel free to skip to the next step. 
 
