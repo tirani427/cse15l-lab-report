@@ -9,9 +9,9 @@ and finally,
 4. Trying some commands on the terminal.
 
 So first step: getting your ssh login on ieng6.
-Getting your ssh login is actually pretty simple. The first thing you should do is go to this url: https://sdacs.ucsd.edu/~icc/index.php
+Getting your ssh login is actually pretty simple. The first thing you should do is go to this url: [Link](https://sdacs.ucsd.edu/~icc/index.php)
 This url will take you to the Educational Technology Services page and your screen should look something like this:
-<img width="1317" alt="Screen Shot 2023-01-12 at 5 02 21 PM" src="https://user-images.githubusercontent.com/111078165/212213202-4107a363-a049-403a-a0ab-8d3237be05b3.png">
+![Image]<img width="1317" alt="Screen Shot 2023-01-12 at 5 02 21 PM" src="https://user-images.githubusercontent.com/111078165/212213202-4107a363-a049-403a-a0ab-8d3237be05b3.png">
 Once you get here, put in your username and student ID number into the appropriate fields. For example, if you're a continuing student then use the first set and if you're a new student then use the second set.
 Now your screen should display your account for CSE 15L. To be sure, note that your account should begin with cs15lwi23 and then be followed by characters unique to your account.
 
