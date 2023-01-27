@@ -71,6 +71,6 @@ Then using the cd command, the command line prompt changes to include the file n
 <img width="513" alt="Screen Shot 2023-01-12 at 5 32 23 PM" src="https://user-images.githubusercontent.com/111078165/212216541-74b6d089-6d61-4d32-8312-331cbc7c0326.png">
 
 You can also use a few more commands, such as:
-cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+``` cat /home/linux/ieng6/cs15lwi23/public/hello.txt ```
 That command actually runs something on your computer so give it a try! This is pretty much how to set up VSCode, Access the Remote Server, and use the commands!
 
