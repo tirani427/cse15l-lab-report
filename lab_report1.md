@@ -10,7 +10,8 @@ and finally,
 
 ## Getting your ssh login on ieng6.
 ---
-Getting your ssh login is actually pretty simple. The first thing you should do is go to this url: [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)
+Getting your ssh login is actually pretty simple. 
+The first thing you should do is go to this url: [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)
 This url will take you to the Educational Technology Services page and your screen should look something like this:
 ![Image](https://user-images.githubusercontent.com/111078165/212213202-4107a363-a049-403a-a0ab-8d3237be05b3.png)
 Once you get here, put in your username and student ID number into the appropriate fields. For example, if you're a continuing student then use the first set and if you're a new student then use the second set.
@@ -54,10 +55,12 @@ Once your password gets accepted, your screen should look something like this:
 
 Now that you've reached this part, congratulations! You have remote access to your server, and now comes the final part of trying some commands.
 Here's a list of a few commands that you can use:
+'''
 pwd - to see your current working directory.
 ls - to see what files are in your current directory.
 cd - to change your current working directory to another one present in the file.
 cd .. - to move back out of a file and into the previous directory.
+'''
 
 I used the commands ls and cd to see the files in my server and then change my directory to that file within the server. When I typed in the ls command after logging in, I saw that there was a file named perl5.
 
