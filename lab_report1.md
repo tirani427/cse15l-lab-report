@@ -8,7 +8,8 @@ Here I'll be going over a few steps you have to take to:
 and finally,
 4. Trying some commands on the terminal.
 
-So first step: getting your ssh login on ieng6.
+## Getting your ssh login on ieng6.
+---
 Getting your ssh login is actually pretty simple. The first thing you should do is go to this url: [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)
 This url will take you to the Educational Technology Services page and your screen should look something like this:
 ![Image](https://user-images.githubusercontent.com/111078165/212213202-4107a363-a049-403a-a0ab-8d3237be05b3.png)
@@ -20,7 +21,9 @@ If you weren't able to find the link on your account, the url to it is here: [ht
 
 The time for your password to change will be about 15 minutes, which is more than enough time to complete the following steps.
 
-Now that you have your ieng6 account, you move onto Step 2: Downloading VS Code, or Visual Studios Code. I didn't have to complete this step because VSCode was already installed on my computer from a previous class, but if you don't have it, then read the following steps. 
+## Step 2: Downloading VS Code, or Visual Studios Code.
+---
+I didn't have to complete this step because VSCode was already installed on my computer from a previous class, but if you don't have it, then read the following steps. 
 
 To do this, go to the following url: [https://code.visualstudio.com/](https://code.visualstudio.com/)
 Make sure that you follow the correct instructions to download VS Code onto your computer because it differs from Windows to Mac. Once you finish downloading VSCode you should be able to open a window like:
