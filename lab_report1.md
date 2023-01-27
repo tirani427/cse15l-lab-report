@@ -41,7 +41,7 @@ Once everything is downloaded properly, you can move onto the next step, which i
 Now Step 3 is fairly simple. 
 
 If you closed VS Code (which I hope you didn't) then reopen it and open an integrated terminal. To do this, you should open a file from your computer and then once that file is open, right-click on that area.
-![Image](<img width="1431" alt="Screen Shot 2023-01-12 at 5 20 13 PM" src="https://user-images.githubusercontent.com/111078165/212215225-6dfc1d98-f302-472b-920f-8453afff1caa.png">)
+![Image](https://user-images.githubusercontent.com/111078165/212215225-6dfc1d98-f302-472b-920f-8453afff1caa.png)
 
 Now scroll down and click on the option that says "Open Integrated Terminal." Once you do that, you should get a screen that opened and looks something like:
 ![Image](https://user-images.githubusercontent.com/111078165/212215361-bc27ac30-4aa1-4085-b423-6f11eb2df203.png)
@@ -52,7 +52,7 @@ Click enter and when you're prompted to, type yes into your command line. It wil
 If the terminal continues to prompt you to enter in the password, then that probably means that not enough time has gone by for your password to have changed in the system. 
 In my case, it took about five minutes to get the password to work, and that was after I'd also realized that my password wasn't accepted in the first place. Either way, just wait a few minutes and try again.
 Once your password gets accepted, your screen should look something like this:
-![Image](<img width="695" alt="Screen Shot 2023-01-12 at 4 35 44 PM" src="https://user-images.githubusercontent.com/111078165/212215778-dd12ab06-d405-4c86-921d-cd5f70efb107.png">)
+![Image](https://user-images.githubusercontent.com/111078165/212215778-dd12ab06-d405-4c86-921d-cd5f70efb107.png)
 
 Now that you've reached this part, congratulations! You have remote access to your server, and now comes the final part of trying some commands.
 Here's a list of a few commands that you can use:
@@ -63,11 +63,11 @@ Here's a list of a few commands that you can use:
 
 I used the commands ls and cd to see the files in my server and then change my directory to that file within the server. When I typed in the ls command after logging in, I saw that there was a file named perl5.
 
-<img width="503" alt="Screen Shot 2023-01-12 at 5 31 23 PM" src="https://user-images.githubusercontent.com/111078165/212216448-9601961e-533c-43e6-87ec-b5229f4c7507.png">
+![Image](https://user-images.githubusercontent.com/111078165/212216448-9601961e-533c-43e6-87ec-b5229f4c7507.png)
 
 Then using the cd command, the command line prompt changes to include the file name, thus meaning that my directory had been changed to that file.
 
-<img width="513" alt="Screen Shot 2023-01-12 at 5 32 23 PM" src="https://user-images.githubusercontent.com/111078165/212216541-74b6d089-6d61-4d32-8312-331cbc7c0326.png">
+![Image](https://user-images.githubusercontent.com/111078165/212216541-74b6d089-6d61-4d32-8312-331cbc7c0326.png)
 
 You can also use a few more commands, such as:
 ``` cat /home/linux/ieng6/cs15lwi23/public/hello.txt ```
