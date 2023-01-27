@@ -8,7 +8,7 @@ Here I'll be going over a few steps you have to take to:
 and finally,
 4. Trying some commands on the terminal.
 
-## Getting your ssh login on ieng6.
+## Step One: Getting Your ssh Login on ieng6.
 ---
 Getting your ssh login is actually pretty simple. 
 The first thing you should do is go to this url: [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)
