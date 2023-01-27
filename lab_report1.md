@@ -38,8 +38,8 @@ For Windows users, in order for you to connect to the remote server, you first n
 Once git is successfully installed, you will need to begin using git bash in VS Code. The instructions on how to do so are in the following url: [https://stackoverflow.com/a/50527994](https://stackoverflow.com/a/50527994)
 Once everything is downloaded properly, you can move onto the next step, which is gaining remote access.
 
-Now Step 3 is fairly simple. 
-
+## Step 3: Log Into SSH
+---
 If you closed VS Code (which I hope you didn't) then reopen it and open an integrated terminal. To do this, you should open a file from your computer and then once that file is open, right-click on that area.
 ![Image](https://user-images.githubusercontent.com/111078165/212215225-6dfc1d98-f302-472b-920f-8453afff1caa.png)
 
@@ -56,20 +56,26 @@ Once your password gets accepted, your screen should look something like this:
 
 Now that you've reached this part, congratulations! You have remote access to your server, and now comes the final part of trying some commands.
 Here's a list of a few commands that you can use:
+
 ```pwd``` - to see your current working directory.
+
 ```ls```- to see what files are in your current directory.
+
 ```cd``` - to change your current working directory to another one present in the file.
+
 ```cd ..``` - to move back out of a file and into the previous directory.
 
 I used the commands ls and cd to see the files in my server and then change my directory to that file within the server. When I typed in the ls command after logging in, I saw that there was a file named perl5.
 
 ![Image](https://user-images.githubusercontent.com/111078165/212216448-9601961e-533c-43e6-87ec-b5229f4c7507.png)
 
-Then using the cd command, the command line prompt changes to include the file name, thus meaning that my directory had been changed to that file.
+Then using the ```cd``` command, the command line prompt changes to include the file name, thus meaning that my directory had been changed to that file.
 
 ![Image](https://user-images.githubusercontent.com/111078165/212216541-74b6d089-6d61-4d32-8312-331cbc7c0326.png)
 
 You can also use a few more commands, such as:
+
 ``` cat /home/linux/ieng6/cs15lwi23/public/hello.txt ```
+
 That command actually runs something on your computer so give it a try! This is pretty much how to set up VSCode, Access the Remote Server, and use the commands!
 
