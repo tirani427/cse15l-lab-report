@@ -1,4 +1,4 @@
-Lab Report 1
+#Lab Report 1
 
 So basically you're in CSE 15L and don't really understand what you have to do to set up your workspace. I'm here to help with that.
 Here I'll be going over a few steps you have to take to:
