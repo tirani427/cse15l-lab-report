@@ -44,9 +44,10 @@ If you closed VS Code (which I hope you didn't) then reopen it and open an integ
 ![Image](<img width="1431" alt="Screen Shot 2023-01-12 at 5 20 13 PM" src="https://user-images.githubusercontent.com/111078165/212215225-6dfc1d98-f302-472b-920f-8453afff1caa.png">)
 
 Now scroll down and click on the option that says "Open Integrated Terminal." Once you do that, you should get a screen that opened and looks something like:
-<img width="1213" alt="Screen Shot 2023-01-12 at 5 22 12 PM" src="https://user-images.githubusercontent.com/111078165/212215361-bc27ac30-4aa1-4085-b423-6f11eb2df203.png">
+![Image](https://user-images.githubusercontent.com/111078165/212215361-bc27ac30-4aa1-4085-b423-6f11eb2df203.png)
 
-Now, click on the terminal and type in the following command, inserting your own id in place of the cs15lwi23__ that I put in: ssh cs15lwi23__@ieng6.ucsd.edu.
+Now, click on the terminal and type in the following command, inserting your own id in place of the cs15lwi23__ that I put in:
+```ssh cs15lwi23__@ieng6.ucsd.edu.```
 Click enter and when you're prompted to, type yes into your command line. It will then prompt you for a password. Enter the password you created for your account before.
 If the terminal continues to prompt you to enter in the password, then that probably means that not enough time has gone by for your password to have changed in the system. 
 In my case, it took about five minutes to get the password to work, and that was after I'd also realized that my password wasn't accepted in the first place. Either way, just wait a few minutes and try again.
@@ -55,12 +56,10 @@ Once your password gets accepted, your screen should look something like this:
 
 Now that you've reached this part, congratulations! You have remote access to your server, and now comes the final part of trying some commands.
 Here's a list of a few commands that you can use:
-'''
-pwd - to see your current working directory.
-ls - to see what files are in your current directory.
-cd - to change your current working directory to another one present in the file.
-cd .. - to move back out of a file and into the previous directory.
-'''
+```pwd``` - to see your current working directory.
+```ls```- to see what files are in your current directory.
+```cd``` - to change your current working directory to another one present in the file.
+```cd ..``` - to move back out of a file and into the previous directory.
 
 I used the commands ls and cd to see the files in my server and then change my directory to that file within the server. When I typed in the ls command after logging in, I saw that there was a file named perl5.
 
