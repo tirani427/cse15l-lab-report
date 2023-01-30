@@ -72,6 +72,15 @@ And since ```parameters[0] = "s"```, then the value for ```String sentence``` is
 #### After ```/add-message?s=I like watching movies, especially Top Gun``` : 
 ![Image](https://user-images.githubusercontent.com/111078165/215376575-d2a1b89a-1da5-4315-8d19-376e6dd53859.png)
 
+Here, the screen is presenting:
 
+```Hello, nice to meet you```
 
+since the last command that was passed was ```/add-message?s=Hello, nice to meet you```.
+
+When this method is called, the argument passed into the handleRequest() method is ```http://localhost:4001/add-message?s=I like watching movies, especially Top Gun```.
+
+And once again, since the argument's path isn't just ```/```, the else statement for the method is tripped again. 
+The same steps from before are passed again, with ```String[] parameters = url.getQuery().split("=");``` since the ```url.getPath()``` contained ```/add-message```. And once again, ```parameters[0] = "s"``` and ```parameters[1] = "I like watching movies, especially Top Gun"```.
+And like before, the method checked to see if ```parameters[0] = "s"```, and since it did, the ```sentence``` instance variable is set to ```sentence += "\n" + parameters[1]``` thus once again changing the instance variable to the new string.
 
