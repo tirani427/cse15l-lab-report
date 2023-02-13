@@ -115,36 +115,35 @@ it is almost impossible to obtain tickets for matches.
 
 skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:19:Amsterdam Parks
 
-skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:20:There are many wooded and park areas
-around the city where it’s possible to take a simple stroll or enjoy other outdoor activities. Amsterdam Bos 
-(city woodland and recreational area), is the largest and most varied and offers a lake for rowing, bridleways 
-for horse rides, and tracks for cycling — you could hire a bike and spend the day here. Many Amsterdammers go 
-running, frisbeeing, or simply take the dog for a walk. The stables at Amsterdam Bos offer woodland rides, a 
-perfect way to clear the city air from your system (contact Manege de Amsterdamse; Tel. 643 1432).
+skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:20:There are many wooded and park areas around 
+the city where it’s possible to take a simple stroll or enjoy other outdoor activities. Amsterdam Bos (city woodland
+and recreational area), is the largest and most varied and offers a lake for rowing, bridleways for horse rides, 
+and tracks for cycling — you could hire a bike and spend the day here. Many Amsterdammers go running, frisbeeing, or 
+simply take the dog for a walk. The stables at Amsterdam Bos offer woodland rides, a perfect way to clear the city 
+air from your system (contact Manege de Amsterdamse; Tel. 643 1432).
 
-skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:28:Winter sports have traditionally 
-played a big part in the lives of Amsterdammers and people from North Holland. When the rivers and canals 
-freeze in winter,everyone is out skating — with long distance skating along the coast from town to town on 
-cold, bright Sundays.
+skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:28:Winter sports have traditionally played a 
+big part in the lives of Amsterdammers and people from North Holland. When the rivers and canals freeze in winter, 
+everyone is out skating — with long distance skating along the coast from town to town on cold, bright Sundays.
 
-skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:31:Amsterdam is a gold mine for those 
-who like to browse. The city has thankfully not yet been taken over by the international chain stores and the 
-narrow streets of the center, the canal rings, and the Jordaan area are home to myriad small, independent 
-boutiques — here you can wander for hours in search of that individual gift. The nearest street you have 
-to “international” shopping, Kalverstraat, is home to the young fashion outlets and department stores.
+skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:31:Amsterdam is a gold mine for those who like
+to browse. The city has thankfully not yet been taken over by the international chain stores and the narrow streets 
+of the center, the canal rings, and the Jordaan area are home to myriad small, independent boutiques — here you can 
+wander for hours in search of that individual gift. The nearest street you have to “international” shopping, 
+Kalverstraat, is home to the young fashion outlets and department stores.
 
-skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:32:Amsterdammers love to shop
-for their homes. Although many live in small apartments, what they lack in square footage they make up for 
-in the quality of their environments, and interior design stores, or stores selling pretty household 
-accessories feature in every shopping area.
+skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:32:Amsterdammers love to shop for their homes. 
+Although many live in small apartments, what they lack in square footage they make up for in the quality of their 
+environments, and interior design stores, or stores selling pretty household accessories feature in every shopping 
+area.
 
-skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:37:Amsterdam still has a good
-number of authentic street markets where you can mix with local people and pick up a bargain. Some markets 
-cater to those with a specialist interest and are by no means a place to find inferior or cheap goods.
+skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:37:Amsterdam still has a good number of 
+authentic street markets where you can mix with local people and pick up a bargain. Some markets cater to those with
+a specialist interest and are by no means a place to find inferior or cheap goods.
 
-skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:38:Perhaps the most famous market 
-in Amsterdam is the Bloemenmarkt or flower market, which is held on the Singel everyday. As well as beautiful 
-blooms you can buy bulbs and tubers to take home (if your customs authorities allow this).
+skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:38:Perhaps the most famous market in Amsterdam 
+is the Bloemenmarkt or flower market, which is held on the Singel everyday. As well as beautiful blooms you can buy 
+bulbs and tubers to take home (if your customs authorities allow this).
 ```
 
 #### What's Happening:
