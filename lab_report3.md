@@ -10,6 +10,10 @@ What Does ```grep``` Do?
 
 ---
 ## Alternate Ways to Use ```grep```
+
+### Source: [https://www.geeksforgeeks.org/grep-command-in-unixlinux/](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+For all the following commands, the source where I discovered them is linked above. There was a table that was labelled **Object Description** and I used it to find the commands used.
+
 ---
 ### ```grep -n <pattern> <fileName> ```
 This command prints the lines that match the pattern given, as well as their line numbers.
