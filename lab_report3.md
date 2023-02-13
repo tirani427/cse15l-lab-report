@@ -20,17 +20,42 @@ This command prints the lines that match the pattern given, as well as their lin
 #### Example 1
 Command: ```grep -n "Bahamas" skill-demo1-data/written_2/*/*/*.txt ```
 
-Output: 
+Output (formatted to fit in the window): 
 
-``` skill-demo1-data/written_2/travel_guides/berlitz1/WhatToFWI.txt:111:        waters off the Bahamas, Puerto Rico, and the Virgin Islands, but the ```
+```
+skill-demo1-data/written_2/travel_guides/berlitz1/WhatToFWI.txt:111: waters off the Bahamas, Puerto Rico, and the 
+Virgin Islands, but the 
 
-```skill-demo1-data/written_2/travel_guides/berlitz2/Bahamas-History.txt:6:Centuries before the arrival of Columbus, a peaceful Amerindian people who called themselves the Luccucairi had settled in the Bahamas. Originally from South America, they had traveled up through the Caribbean islands, surviving by cultivating modest crops and from what they caught from sea and shore. Nothing in the experience of these gentle people could have prepared them for the arrival of the Pinta, the Niña, and the Santa Maria at San Salvador on 12 October 1492. Columbus believed that he had reached the East Indies and mistakenly called these people Indians. We know them today as the Lucayans. Columbus claimed the island and others in the Bahamas for his royal Spanish patrons, but not finding the gold and other riches he was seeking, he stayed for only two weeks before sailing towards Cuba.```
+skill-demo1-data/written_2/travel_guides/berlitz2/Bahamas-History.txt:6:Centuries before the arrival of Columbus, a 
+peaceful Amerindian people who called themselves the Luccucairi had settled in the Bahamas. Originally from South 
+America, they had traveled up through the Caribbean islands, surviving by cultivating modest crops and from what 
+they caught from sea and shore. Nothing in the experience of these gentle people could have prepared them for the 
+arrival of the Pinta, the Niña, and the Santa Maria at San Salvador on 12 October 1492. Columbus believed that he
+had reached the East Indies and mistakenly called these people Indians. We know them today as the Lucayans. Columbus
+claimed the island and others in the Bahamas for his royal Spanish patrons, but not finding the gold and other riches
+he was seeking, he stayed for only two weeks before sailing towards Cuba.
 
-```skill-demo1-data/written_2/travel_guides/berlitz2/Bahamas-History.txt:7:The Spaniards never bothered to settle in the Bahamas, but the number of shipwrecks attest that their galleons frequently passed through the archipelago en route to and from the Caribbean, Florida, Bermuda, and their home ports. On Eleuthera the explorers dug a fresh-water well — at a spot now known as “Spanish Wells” — which was used to replenish the supplies of water on their ships before they began the long journey back to Europe with their cargoes of South American gold. As for the Lucayans, within 25 years all of them, perhaps some 30,000 people, were removed from the Bahamas to work — and die — in Spanish gold mines and on farms and pearl fisheries on Hispaniola (Haiti), Cuba, and elsewhere in the Caribbean.```
+skill-demo1-data/written_2/travel_guides/berlitz2/Bahamas-History.txt:7:The Spaniards never bothered to settle in the 
+Bahamas, but the number of shipwrecks attest that their galleons frequently passed through the archipelago en route to
+and from the Caribbean, Florida, Bermuda, and their home ports. On Eleuthera the explorers dug a fresh-water well — at
+a spot now known as “Spanish Wells” — which was used to replenish the supplies of water on their ships before they began
+the long journey back to Europe with their cargoes of South American gold. As for the Lucayans, within 25 years all of 
+them, perhaps some 30,000 people, were removed from the Bahamas to work — and die — in Spanish gold mines and on farms
+and pearl fisheries on Hispaniola (Haiti), Cuba, and elsewhere in the Caribbean.
 
-```skill-demo1-data/written_2/travel_guides/berlitz2/Bahamas-History.txt:8:English sea captains also came to know the beautiful but deserted Bahamian islands during the 17th century. England’s first formal move was on 30 October 1629, when Charles I granted the Bahamas and a chunk of the American south to his Attorney General, Sir Robert Health. But nothing came of that, nor of a rival French move in 1633 when Cardinal Richelieu, the 17th-century French statesman, tried claiming the islands for France.```
+skill-demo1-data/written_2/travel_guides/berlitz2/Bahamas-History.txt:8:English sea captains also came to know the 
+beautiful but deserted Bahamian islands during the 17th century. England’s first formal move was on 30 October 1629, 
+when Charles I granted the Bahamas and a chunk of the American south to his Attorney General, Sir Robert Health. But 
+nothing came of that, nor of a rival French move in 1633 when Cardinal Richelieu, the 17th-century French statesman, 
+tried claiming the islands for France.
 
-```skill-demo1-data/written_2/travel_guides/berlitz2/Bahamas-History.txt:10:In 1648 a group of English Puritans from Bermuda, led by William Sayle, sailed to Bahamian waters and established the first permanent European settlement on the island they named Eleutheria (now Eleuthera) after the Greek word for freedom. The 70 colonists called themselves the Eleutherian Adventurers, but life was very difficult and the colony never flourished, though Sayle was long honored for the effort. In 1666 a smaller island (called Sayle’s island) with a fine harbor was settled by Bermudians and renamed New Providence. It was later to become known as Nassau, capital of the Bahamas. ```
+skill-demo1-data/written_2/travel_guides/berlitz2/Bahamas-History.txt:10:In 1648 a group of English Puritans from Bermuda,
+led by William Sayle, sailed to Bahamian waters and established the first permanent European settlement on the island
+they named Eleutheria (now Eleuthera) after the Greek word for freedom. The 70 colonists called themselves the
+Eleutherian Adventurers, but life was very difficult and the colony never flourished, though Sayle was long honored for
+the effort. In 1666 a smaller island (called Sayle’s island) with a fine harbor was settled by Bermudians and renamed 
+New Providence. It was later to become known as Nassau, capital of the Bahamas.
+```
 
 ---
 #### What's Happening:
@@ -39,39 +64,83 @@ Basically this command is doing exactly what it's supposed to do, which is look 
 ---
 #### Example 2
 Command: ``` grep -n "Amsterdam" skill-demo1-data/written_2/*/*/*.txt ```
-Output: 
 
-```skill-demo1-data/written_2/travel_guides/berlitz1/IntroJerusalem.txt:99:        from Tangier, Fez, and Amsterdam to Salonika, Istanbul, and Aleppo ```
+Output (formatted to fit the window): 
 
-``` skill-demo1-data/written_2/travel_guides/berlitz1/WhatToJamaica.txt:583:        as a quirky “Amsterdam street meets Italian piazza” mall. The whole```
+```
+skill-demo1-data/written_2/travel_guides/berlitz1/IntroJerusalem.txt:99:        from Tangier, Fez, and Amsterdam to
+Salonika, Istanbul, and Aleppo
 
-```skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:7:It is said that there are over 40 different performances taking place on every evening of the year in Amsterdam. In other words, you will not be at a loss for things to do here. Concert halls and theaters are found all across the city with ballet, opera, pop performances, and classical orchestras all making regular contributions. There are also plenty of venues for more “risqué” or avant-garde performances.```
+skill-demo1-data/written_2/travel_guides/berlitz1/WhatToJamaica.txt:583:        as a quirky “Amsterdam street meets
+Italian piazza” mall. The whole```
 
-```skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:9:You can book tickets for performances on your arrival but popular acts or plays may sell out quickly. The VVV issues a What’s on in Amsterdam magazine on a monthly basis which lists the performances taking place each day. The easiest way to book tickets for performances before you arrive in town is through the Amsterdam Uit Bureau (AUB-Uitlijn). They produce a publication called Culture in Amsterdam with a listing of major performances. Contact them at Tel. 621 1211 and have your credit cards ready. Tickets can be posted to your home address or will be kept at the AUB office in Leidseplein for you to collect.```
+skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:7:It is said that there are over 40 different
+performances taking place on every evening of the year in Amsterdam. In other words, you will not be at a loss for 
+things to do here. Concert halls and theaters are found all across the city with ballet, opera, pop performances, and 
+classical orchestras all making regular contributions. There are also plenty of venues for more “risqué” or 
+avant-garde performances.
 
-```skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:10:At any given time there will be temporary art exhibitions at galleries and museums around the city. The Film Museum in Vondelpark also has special showings and film festivals. See What’s on in Amsterdam.```
+skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:9:You can book tickets for performances on your
+arrival but popular acts or plays may sell out quickly. The VVV issues a What’s on in Amsterdam magazine on a monthly 
+basis which lists the performances taking place each day. The easiest way to book tickets for performances before you 
+arrive in town is through the Amsterdam Uit Bureau (AUB-Uitlijn). They produce a publication called Culture in 
+Amsterdam with a listing of major performances. Contact them at Tel. 621 1211 and have your credit cards ready. 
+Tickets can be posted to your home address or will be kept at the AUB office in Leidseplein for you to collect.
 
-``` skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:11:The Holland Festival is a program of art events which take place all over the country throughout June. In Amsterdam the parks and pleins are filled with organized activities, and many galleries and concert halls hold coordinated events. A special ticket line will provide information about the festival activities, and tickets if you pay by credit card (Tel. 627 6566).```
+skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:10:At any given time there will be temporary art
+exhibitions at galleries and museums around the city. The Film Museum in Vondelpark also has special showings and film
+festivals. See What’s on in Amsterdam.
 
-```skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:12:The Amsterdam Casino at Max Euweplein off Leidseplein offers the opportunity for adults to gamble (Tel. 620 1006). Open every day from 1:30pm.```
+skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:11:The Holland Festival is a program of art events
+which take place all over the country throughout June. In Amsterdam the parks and pleins are filled with organized 
+activities, and many galleries and concert halls hold coordinated events. A special ticket line will provide information 
+about the festival activities, and tickets if you pay by credit card (Tel. 627 6566).
 
-```skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:15:A night cruise along the canals with dinner is a wonderful and romantic way to get a different view of Amsterdam. Many of the bridges and historic buildings are lit at night, and the city is more peaceful. Lovers company (see page 116) has small and large boats and offers wine and cheese cruises or full dinner cruises.For a more private cruise (and one in which you can arrange your own itinerary) you can hire a water taxi in the smaller waterways.```
+skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:12:The Amsterdam Casino at Max Euweplein off 
+Leidseplein offers the opportunity for adults to gamble (Tel. 620 1006). Open every day from 1:30pm.
 
-```skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:18:The Netherlands are football (soccer) crazy and Ajax is the Amsterdam team, one of the most successful in Europe over the last 30 years. They play at the Amsterdam Arena, a fine modern stadium, which is also used for other sporting events — but unfortunately it is almost impossible to obtain tickets for matches.```
+skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:15:A night cruise along the canals with dinner is
+a wonderful and romantic way to get a different view of Amsterdam. Many of the bridges and historic buildings are lit at 
+night, and the city is more peaceful. Lovers company (see page 116) has small and large boats and offers wine and cheese
+cruises or full dinner cruises.For a more private cruise (and one in which you can arrange your own itinerary) you can 
+hire a water taxi in the smaller waterways.
 
-```skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:19:Amsterdam Parks```
+skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:18:The Netherlands are football (soccer) crazy 
+and Ajax is the Amsterdam team, one of the most successful in Europe over the last 30 years. They play at the Amsterdam 
+Arena, a fine modern stadium, which is also used for other sporting events — but unfortunately it is almost impossible 
+to obtain tickets for matches.
 
-```skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:20:There are many wooded and park areas around the city where it’s possible to take a simple stroll or enjoy other outdoor activities. Amsterdam Bos (city woodland and recreational area), is the largest and most varied and offers a lake for rowing, bridleways for horse rides, and tracks for cycling — you could hire a bike and spend the day here. Many Amsterdammers go running, frisbeeing, or simply take the dog for a walk. The stables at Amsterdam Bos offer woodland rides, a perfect way to clear the city air from your system (contact Manege de Amsterdamse; Tel. 643 1432).```
+skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:19:Amsterdam Parks
 
-```skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:28:Winter sports have traditionally played a big part in the lives of Amsterdammers and people from North Holland. When the rivers and canals freeze in winter, everyone is out skating — with long distance skating along the coast from town to town on cold, bright Sundays.```
+skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:20:There are many wooded and park areas around 
+the city where it’s possible to take a simple stroll or enjoy other outdoor activities. Amsterdam Bos (city woodland 
+and recreational area), is the largest and most varied and offers a lake for rowing, bridleways for horse rides, and 
+tracks for cycling — you could hire a bike and spend the day here. Many Amsterdammers go running, frisbeeing, or 
+simply take the dog for a walk. The stables at Amsterdam Bos offer woodland rides, a perfect way to clear the city 
+air from your system (contact Manege de Amsterdamse; Tel. 643 1432).
 
-```skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:31:Amsterdam is a gold mine for those who like to browse. The city has thankfully not yet been taken over by the international chain stores and the narrow streets of the center, the canal rings, and the Jordaan area are home to myriad small, independent boutiques — here you can wander for hours in search of that individual gift. The nearest street you have to “international” shopping, Kalverstraat, is home to the young fashion outlets and department stores.```
+skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:28:Winter sports have traditionally played a 
+big part in the lives of Amsterdammers and people from North Holland. When the rivers and canals freeze in winter,
+everyone is out skating — with long distance skating along the coast from town to town on cold, bright Sundays.
 
-```skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:32:Amsterdammers love to shop for their homes. Although many live in small apartments, what they lack in square footage they make up for in the quality of their environments, and interior design stores, or stores selling pretty household accessories feature in every shopping area.```
+skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:31:Amsterdam is a gold mine for those who like
+to browse. The city has thankfully not yet been taken over by the international chain stores and the narrow streets of
+the center, the canal rings, and the Jordaan area are home to myriad small, independent boutiques — here you can 
+wander for hours in search of that individual gift. The nearest street you have to “international” shopping, 
+Kalverstraat, is home to the young fashion outlets and department stores.
 
-```skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:37:Amsterdam still has a good number of authentic street markets where you can mix with local people and pick up a bargain. Some markets cater to those with a specialist interest and are by no means a place to find inferior or cheap goods.```
+skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:32:Amsterdammers love to shop for their homes.
+Although many live in small apartments, what they lack in square footage they make up for in the quality of their 
+environments, and interior design stores, or stores selling pretty household accessories feature in every shopping area.
 
-```skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:38:Perhaps the most famous market in Amsterdam is the Bloemenmarkt or flower market, which is held on the Singel everyday. As well as beautiful blooms you can buy bulbs and tubers to take home (if your customs authorities allow this).```
+skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:37:Amsterdam still has a good number of authentic
+street markets where you can mix with local people and pick up a bargain. Some markets cater to those with a specialist 
+interest and are by no means a place to find inferior or cheap goods.
+
+skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:38:Perhaps the most famous market in Amsterdam is
+the Bloemenmarkt or flower market, which is held on the Singel everyday. As well as beautiful blooms you can buy bulbs 
+and tubers to take home (if your customs authorities allow this).
+```
 
 #### What's Happening:
 Here, the command is performing the same as it did what the pattern being searched for was ```Bahamas```, except this time its looking for the pattern ```Amsterdam``` in the path ```skill-demo1-data/written_2/*/*/*.txt```. It ends up showing how often the word pops up in the files, however when looking for the individual files themselves, it can get tedious as then one must cipher through the text provided after with the lines the pattern is in. 
