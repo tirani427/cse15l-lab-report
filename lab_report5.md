@@ -148,11 +148,9 @@ skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Fletcher/ch5.txt
 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz1/HistoryItaly.txt
 ...
 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz1/WhatToJamaica.txt
-skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz2/Portugal-History.txt
 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz2/Berlin-WhereToGo.txt
 ...
 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz2/Algarve-History.txt
-skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz2/Poland-History.txt
 ```
 And as you can see, now the files being searched includes the files within ```non-fiction``` too.
 
@@ -276,38 +274,29 @@ This command basically returns **everything** within the given path. I don't kno
 #### Output:
 ```
 <number>    <number2> -rwxr-xr-x  1 <user>  staff   <number> Mar 13 11:15 skill-demo1-server/skill-demo1-data/written_2/non-fiction
-<number>    <number2> -rwxr-xr-x  1 <user>  staff   <number> Mar 13 11:15 skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP
 <number>    <number2> -rwxr-xr-x  1 <user>  staff   <number> Mar 13 11:15 skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Berk
-<number>    <number2> -rwxr-xr-x  1 <user>  staff   <number> Mar 13 11:15 skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Berk/ch2.txt
 ...
 <number>    <number2> -rwxr-xr-x  1 <user>  staff   <number> Mar 13 11:15 skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Berk/ch7.txt
 <number>    <number2> -rwxr-xr-x  1 <user>  staff   <number> Mar 13 11:15 skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Abernathy
-<number>    <number2> -rwxr-xr-x  1 <user>  staff   <number> Mar 13 11:15 skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Abernathy/ch2.txt
 ...
 <number>    <number2> -rwxr-xr-x  1 <user>  staff   <number> Mar 13 11:15 skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Abernathy/ch14.txt
 <number>    <number2> -rwxr-xr-x  1 <user>  staff   <number> Mar 13 11:15 skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Rybczynski
-<number>    <number2> -rwxr-xr-x  1 <user>  staff   <number> Mar 13 11:15 skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Rybczynski/ch2.txt
 ...
 <number>    <number2> -rwxr-xr-x  1 <user>  staff   <number> Mar 13 11:15 skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Rybczynski/ch1.txt
 <number>    <number2> -rwxr-xr-x  1 <user>  staff   <number> Mar 13 11:15 skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Kauffman
-<number>    <number2> -rwxr-xr-x  1 <user>  staff   <number> Mar 13 11:15 skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Kauffman/ch3.txt
 ...
 <number>    <number2> -rwxr-xr-x  1 <user>  staff   <number> Mar 13 11:15 skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Kauffman/ch10.txt
 <number>    <number2> -rwxr-xr-x  1 <user>  staff   <number> Mar 13 11:15 skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Fletcher
-<number>    <number2> -rwxr-xr-x  1 <user>  staff   <number> Mar 13 11:15 skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Fletcher/ch2.txt
 ...
 <number>    <number2> -rwxr-xr-x  1 <user>  staff   <number> Mar 13 11:15 skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Fletcher/ch10.txt
 <number>    <number2> -rwxr-xr-x  1 <user>  staff   <number> Mar 13 11:15 skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Castro
-<number>    <number2> -rwxr-xr-x  1 <user>  staff   <number> Mar 13 11:15 skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Castro/chR.txt
 ...
 <number>    <number2> -rwxr-xr-x  1 <user>  staff   <number> Mar 13 11:15 skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Castro/chO.txt
 <number>    <number2> -rwxr-xr-x  1 <user>  staff   <number> Mar 13 11:15 skill-demo1-server/skill-demo1-data/written_2/travel_guides
 <number>    <number2> -rwxr-xr-x  1 <user>  staff   <number> Mar 13 11:15 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz1
-<number>    <number2> -rwxr-xr-x  1 <user>  staff   <number> Mar 13 11:15 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz1/HandRLasVegas.txt
 ...
 <number>    <number2> -rwxr-xr-x  1 <user>  staff   <number> Mar 13 11:15 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz1/WhatToLosAngeles.txt
 <number>    <number2> -rwxr-xr-x  1 <user>  staff   <number> Mar 13 11:15 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz2
-<number>    <number2> -rwxr-xr-x  1 <user>  staff   <number> Mar 13 11:15 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz2/Portugal-History.txt
 ...
 <number>    <number2> -rwxr-xr-x  1 <user>  staff   <number> Mar 13 11:15 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz2/Cancun-WhereToGo.txt
 ```
