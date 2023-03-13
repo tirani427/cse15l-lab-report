@@ -34,9 +34,6 @@ This command searches within the path for a recurring pattern given by the expre
 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz2/Portugal-History.txt
 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz2/Berlin-WhereToGo.txt
 ...
-skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz2/California-WhereToGo.txt
-skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz2/Cuba-WhatToDo.txt
-...
 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz2/Cuba-History.txt
 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz2/Cancun-WhereToGo.txt
@@ -68,15 +65,12 @@ skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Fletcher/ch10.txt
 skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Castro/chR.txt
 ...
 skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Castro/chO.txt
-skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz1/HandRLasVegas.txt
 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz1/IntroMalaysia.txt
 ...
 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz1/WhatToLosAngeles.txt
 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz2/Portugal-History.txt
 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz2/Costa-History.txt
 ...
-skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz2/Nepal-WhatToDo.txt
-skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz2/Beijing-WhatToDo.txt
 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz2/Cancun-WhereToGo.txt
 ```
 
@@ -101,14 +95,12 @@ as well as many others. For the purpose of understanding what I'm doing, this is
 
 #### Output:
 ```
-skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz1/HistoryEdinburgh.txt
 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz1/HistoryJerusalem.txt
 ...
 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz1/WhereToMadrid.txt
 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz2/Barcelona-WhereToGo.txt
 ...
 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz2/PuertoRico-WhereToGo.txt
-skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
 ```
 What this command did is that it first searched for all the ```.txt``` files within the given path ```skill-demo1-server/skill-demo1-data/written_2/*/*/*.txt```. 
 
@@ -125,9 +117,7 @@ So here, it returned all the files containing that pattern of ```"dedicated to t
 monarchy
 monarchy
 monarchy
-monarchy
 ...
-monarchy
 monarchy
 monarchy
 monarchy
@@ -139,11 +129,9 @@ The same occurs as before where the ```find -type f ...``` command is concerned.
 
 Since the pattern is different this time, the files which contain the pattern are:
 ```
-skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz1/HistoryFrance.txt
 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz1/HistoryHawaii.txt
 ...
 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz1/WhatToJamaica.txt
-skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz2/Barcelona-History.txt
 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz2/Berlin-History.txt
 ...
 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz2/Portugal-History.txt
@@ -182,8 +170,7 @@ skill-demo1-server/skill-demo1-data/written_2/non-fiction
 skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP
 skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Berk
 skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Abernathy
-skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Rybczynski
-skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Kauffman
+...
 skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Fletcher
 skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Castro
 skill-demo1-server/skill-demo1-data/written_2/travel_guides
@@ -231,7 +218,7 @@ skill-demo1-server/skill-demo1-data/.git/config
 skill-demo1-server/skill-demo1-data/.git/HEAD
 skill-demo1-server/skill-demo1-data/.git/info/exclude
 skill-demo1-server/skill-demo1-data/.git/logs/HEAD
-skill-demo1-server/skill-demo1-data/.git/logs/refs/heads/main
+...
 skill-demo1-server/skill-demo1-data/.git/logs/refs/remotes/origin/HEAD
 skill-demo1-server/skill-demo1-data/.git/description
 skill-demo1-server/skill-demo1-data/.git/hooks/commit-msg.sample
