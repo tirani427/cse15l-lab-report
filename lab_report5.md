@@ -131,7 +131,6 @@ monarchy
 monarchy
 monarchy
 monarchy
-monarchy
 ```
 
 Being completely honest, for my second example I was going to show what would happen when the above command was used without ```-rl``` after ```grep```, but after seeing the output, I decided it would be better to show the other result that ```-exec grep 'monarchy'``` could show, which is **just** the part of the lines that matches the pattern.
@@ -144,7 +143,6 @@ skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz1/HistoryFran
 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz1/HistoryHawaii.txt
 ...
 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz1/WhatToJamaica.txt
-skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz1/WhereToEdinburgh.txt
 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz2/Barcelona-History.txt
 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz2/Berlin-History.txt
 ...
@@ -158,7 +156,6 @@ Keeping the grep command the same, by changing the command to: ```find skill-dem
 
 ```
 skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Fletcher/ch2.txt
-skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Fletcher/ch1.txt
 skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Fletcher/ch5.txt
 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz1/HistoryItaly.txt
 ...
@@ -201,28 +198,18 @@ skill-demo1-server/lib
 skill-demo1-server/skill-demo1-data
 skill-demo1-server/skill-demo1-data/.git
 skill-demo1-server/skill-demo1-data/.git/objects
-skill-demo1-server/skill-demo1-data/.git/objects/pack
-skill-demo1-server/skill-demo1-data/.git/objects/info
-skill-demo1-server/skill-demo1-data/.git/info
-skill-demo1-server/skill-demo1-data/.git/logs
-skill-demo1-server/skill-demo1-data/.git/logs/refs
-skill-demo1-server/skill-demo1-data/.git/logs/refs/heads
+...
 skill-demo1-server/skill-demo1-data/.git/logs/refs/remotes
 skill-demo1-server/skill-demo1-data/.git/logs/refs/remotes/origin
 skill-demo1-server/skill-demo1-data/.git/hooks
 skill-demo1-server/skill-demo1-data/.git/refs
-skill-demo1-server/skill-demo1-data/.git/refs/heads
-skill-demo1-server/skill-demo1-data/.git/refs/tags
+...
 skill-demo1-server/skill-demo1-data/.git/refs/remotes
 skill-demo1-server/skill-demo1-data/.git/refs/remotes/origin
 skill-demo1-server/skill-demo1-data/written_2
 skill-demo1-server/skill-demo1-data/written_2/non-fiction
 skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP
-skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Berk
-skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Abernathy
-skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Rybczynski
-skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Kauffman
-skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Fletcher
+...
 skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Castro
 skill-demo1-server/skill-demo1-data/written_2/travel_guides
 skill-demo1-server/skill-demo1-data/written_2/travel_guides/berlitz1
@@ -240,8 +227,7 @@ skill-demo1-server/Server.java
 skill-demo1-server/lib/junit-4.13.2.jar
 skill-demo1-server/lib/hamcrest-core-1.3.jar
 skill-demo1-server/skill-demo1-data/.git/config
-skill-demo1-server/skill-demo1-data/.git/objects/pack/pack-b98cb6a4ca64cc7b2944f0fa07d3e03927d66064.pack
-skill-demo1-server/skill-demo1-data/.git/objects/pack/pack-b98cb6a4ca64cc7b2944f0fa07d3e03927d66064.idx
+...
 skill-demo1-server/skill-demo1-data/.git/HEAD
 skill-demo1-server/skill-demo1-data/.git/info/exclude
 skill-demo1-server/skill-demo1-data/.git/logs/HEAD
@@ -249,20 +235,10 @@ skill-demo1-server/skill-demo1-data/.git/logs/refs/heads/main
 skill-demo1-server/skill-demo1-data/.git/logs/refs/remotes/origin/HEAD
 skill-demo1-server/skill-demo1-data/.git/description
 skill-demo1-server/skill-demo1-data/.git/hooks/commit-msg.sample
-skill-demo1-server/skill-demo1-data/.git/hooks/pre-rebase.sample
-skill-demo1-server/skill-demo1-data/.git/hooks/pre-commit.sample
-skill-demo1-server/skill-demo1-data/.git/hooks/applypatch-msg.sample
-skill-demo1-server/skill-demo1-data/.git/hooks/fsmonitor-watchman.sample
-skill-demo1-server/skill-demo1-data/.git/hooks/pre-receive.sample
-skill-demo1-server/skill-demo1-data/.git/hooks/prepare-commit-msg.sample
-skill-demo1-server/skill-demo1-data/.git/hooks/post-update.sample
-skill-demo1-server/skill-demo1-data/.git/hooks/pre-merge-commit.sample
-skill-demo1-server/skill-demo1-data/.git/hooks/pre-applypatch.sample
-skill-demo1-server/skill-demo1-data/.git/hooks/pre-push.sample
-skill-demo1-server/skill-demo1-data/.git/hooks/update.sample
+...
 skill-demo1-server/skill-demo1-data/.git/hooks/push-to-checkout.sample
 skill-demo1-server/skill-demo1-data/.git/refs/heads/main
-skill-demo1-server/skill-demo1-data/.git/refs/remotes/origin/HEAD
+...
 skill-demo1-server/skill-demo1-data/.git/index
 skill-demo1-server/skill-demo1-data/.git/packed-refs
 skill-demo1-server/skill-demo1-data/written_2/non-fiction/OUP/Berk/ch2.txt
